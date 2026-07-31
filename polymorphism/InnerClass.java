@@ -23,3 +23,19 @@ public class InnerClass {
     }
     
 }
+
+// Anonymous Inner Class
+// 1. An inner class without a name.
+// 2. Used only once.
+// 3. Creates an object and overrides methods at the same time.
+// 4. No need to create a separate subclass.
+
+// A obj = new A() {
+
+//     @Override
+//     public void show() {
+//         System.out.println("in Anonymous Inner Class show");
+//     }
+// };
+
+// obj.show();
