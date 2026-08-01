@@ -8,7 +8,7 @@ public class Lambda {
 
     public static void main(String[] args) {
 
-        A obj = (i) -> System.out.println("in show " + i);
+        A obj = (i) -> System.out.println("in show " + i); // lambda expression
 
         obj.show(10);
     }
